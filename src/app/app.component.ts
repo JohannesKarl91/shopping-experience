@@ -89,6 +89,9 @@ export class AppComponent implements OnInit {
   }
 
 
+  /**
+   * Switches the container via from loading perspective to available products overview.
+   */
   changeContainer(){
     if (!this.loadingProducts) {
       let productsOverview = document.getElementById('productsOverview');
